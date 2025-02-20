@@ -1,0 +1,128 @@
+@font-face {
+  font-family: 'Inter';
+  /* Name of the font */
+  src: url('./assets/fonts/Inter/Inter-VariableFont_opsz\,wght.ttf') format('truetype');
+  /* Path and format of the font */
+  font-weight: normal;
+  /* Optional: font weight */
+  font-style: normal;
+  /* Optional: font style */
+}
+
+@font-face {
+  font-family: 'Baumans';
+  /* Name of the font */
+  src: url('./assets/fonts/baumans/Baumans-Regular.ttf') format('truetype');
+  /* Path and format of the font */
+  font-weight: normal;
+  /* Optional: font weight */
+  font-style: normal;
+  /* Optional: font style */
+}
+
+@font-face {
+  font-family: 'Bebas Neue Pro';
+  /* Name of the font */
+  src: url('./assets/fonts/bebas_neue_pro/BebasNeuePro-Regular.ttf') format('truetype');
+  /* Path and format of the font */
+  font-weight: normal;
+  /* Optional: font weight */
+  font-style: normal;
+  /* Optional: font style */
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #F6F6F6;
+}
+
+.dm-sans {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.bebas-neue {
+  font-family: "Bebas Neue", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.bebas-neue-pro {
+  font-family: "Bebas Neue Pro", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.baumans {
+  font-family: "Baumans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.stroked-text {
+  -webkit-text-stroke: 1px black;
+}
+
+.concretment-img{
+  box-shadow: 10px 8px 28.2px 11px rgba(0, 0, 0, 0.1);
+}
+
+.concretment-bg{
+  background: linear-gradient(340.5deg, rgba(255, 217, 158, 0.5) -3.29%, rgba(255, 255, 255, 0.32) 78.51%);
+  box-shadow: -3px 8px 28.2px -15px rgba(0, 0, 0, 0.1);
+}
+
+.contact-bg{
+  background: (rgba(246, 246, 246), rgba(255, 255, 255, 1));
+}
+
+.back-btn{
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.noise{
+  background-image: url('assets/images/LLA/_Support_LLA/02_intro/Ellipse_intro_lla.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+@keyframes infiniteScroll {
+  from {transform: translateX(0)}
+  to {transform: translateX(-50%)}
+}
+
+.horizontal-scrolling-items {
+  display: flex;
+  gap: 20px;
+  width: fit-content;
+  animation-name: infiniteScroll;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.horizontal-scrolling-items__item {
+  white-space: nowrap;
+}
+
+.rotate-anim{
+  animation: rotate 7s linear infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.intro-mob-bg {
+  background: linear-gradient(rgba(92, 0, 188, 0.55), rgba(92, 0, 188, 0.55)),
+  url('./assets/images/NA PRO/Opportunites/Dream_team/01_header/mob-head-bg.jpg');
+  background-position: center, calc(50% - 40px) center; 
+  background-size: cover;
+  background-repeat: no-repeat;
+}
