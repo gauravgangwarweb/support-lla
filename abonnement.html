@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>News Assurance Pro</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./dotnav.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  </head>
+
+  <body>
+    <main class="w-full mx-auto bg-[#F6F6F6]">
+      <section class="">
+        <h1
+          class="pt-40 pl-8 lg:pl-20 pb-6 bebas-neue-pro uppercase font-bold text-[64px] leading-[70px] tracking-[2%] text-[#090909] hidden lg:block"
+        >
+          ABONNEMENT
+        </h1>
+        <div class="abonnement-intro-mob-bg lg:ml-14 lg:rounded-l-xl">
+          <div
+            class="lg:bg-[#E99C45] lg:rounded-xl pt-56 lg:pt-32 pb-16 lg:pb-20 lg:pl-20 relative px-9 lg:px-0"
+          >
+            <h1
+              class="bebas-neue-pro uppercase font-bold text-[48px] leading-[52px] tracking-[2%] text-white text-center pb-6 lg:hidden"
+            >
+              ABONNEMENT
+            </h1>
+            <p
+              class="w-full lg:w-[47%] lg:max-w-[680px] text-white leading-[19px] lg:leading-[36px] text-[16px] lg:text-[24px] text-left font-medium"
+            >
+              Chaque semaine, vous profitez
+              <b class="font-bold">d’un double rendez-vous </b>
+              avec La Lettre de l’Assurance !
+            </p>
+            <img
+              class="absolute bottom-0 right-0 hidden lg:block h-[400px] lg:h-auto"
+              src="./assets/images/LLA/Opportunites/Abonnement/01_header/visuel_header_abonnement_lla.png"
+              alt="visuel_header"
+            />
+          </div>
+        </div>
+      </section>
+      <!-- intro -->
+      <section class="w-full py-8 lg:py-12 lg:py-18 xl:py-28 px-8 relative">
+        <!-- for desktop -->
+        <div class="hidden lg:block z-10 pb-20 noise-abonnement">
+          <div
+            class="max-w-[980px] mx-auto grid grid-cols-2 gap-8 items-center justify-center relative"
+          >
+            <img
+              class="w-full h-full aspect-auto z-20 rounded-md"
+              loading="lazy"
+              src="/assets/images/LLA/Opportunites/Abonnement/02_partie_intro/visuel_1_abonnement_lla.png"
+              alt="presentation"
+            />
+            <div
+              class="concretment-shadow bg-white flex items-center gap-4 p-10 h-[95%] rounded-xl relative"
+            >
+              <div class="w-2 h-[142px] bg-[#E99C45]"></div>
+              <p
+                class="text-base lg:text-[18px] leading-[27px] tracking-[2%] text-[#363636]"
+              >
+                Le vendredi, le journal est disponible
+                <b class="font-bold"> en ligne. </b>
+                Vous découvrez les principales informations, retrouvez les
+                archives.
+                <br /><br />
+                Le lundi, vous recevez, sur
+                <b class="font-bold">le lieu de votre choix</b>, le journal
+                <b class="font-semibold"> papier.</b>
+              </p>
+              <img
+                class="absolute -bottom-32 -right-[120px]"
+                loading="lazy"
+                src="/assets/images/LLA/Opportunites/Abonnement/02_partie_intro/visuel_2_abonnement_lla.png"
+                alt=""
+              />
+            </div>
+            <!-- <img class="absolute" loading="lazy" src="/assets/images/LLA/_Support_LLA/" alt=""> -->
+          </div>
+        </div>
+        <!-- for mobile -->
+        <div class="lg:hidden noise-abonnement">
+          <div
+            class="sm:max-w-[500px] lg:max-w-[1280px] mx-auto grid grid-cols-1 xl:grid-cols-2 gap-10 items-center justify-center"
+          >
+            <div class="rounded-xl h-full">
+              <p
+                class="font-medium text-base lg:text-[20px] leading-[19px] lg:leading-[33px] tracking-[2%] text-[#3D3D3D]"
+              >
+                Le vendredi, le journal est disponible
+                <b class="font-bold"> en ligne. </b>
+                Vous découvrez les principales informations, retrouvez les
+                archives.
+                <br /><br />
+                Le lundi, vous recevez, sur
+                <b class="font-bold">le lieu de votre choix</b>, le journal
+                <b class="font-semibold"> papier.</b>
+              </p>
+            </div>
+            <div class="flex flex-col">
+              <img
+                class="w-full"
+                loading="lazy"
+                src="/assets/images/LLA/Opportunites/Abonnement/02_partie_intro/visuel_1_abonnement_lla.png"
+                alt="presentation"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="w-full flex flex-col items-center justify-center mt-12 lg:mt-0"
+        >
+          <img
+            loading="lazy"
+            src="/assets/images/LLA/Opportunites/Abonnement/02_partie_intro/visuel_3_abonnement_lla.png"
+            alt="presentation"
+          />
+          <p
+            class="font-medium text-base text-center lg:text-[20px] leading-[19px] lg:leading-[33px] tracking-[2%] text-[#3D3D3D] lg:w-[572px] mt-4 lg:mt-0"
+          >
+            L’abonnement vous donne un accès personnel au site internet de La
+            Lettre de l’Assurance.
+            <b class="font-bold">Flash Info, chroniques, articles exclusifs</b>,
+            ne ratez rien des coulisses de l’assurance.
+          </p>
+          <hr class="w-32 lg:w-[193px] h-0.5 bg-[#E99C45] mt-8 lg:mt-4" />
+          <p
+            class="font-medium text-base text-center lg:text-[20px] leading-[19px] lg:leading-[33px] tracking-[2%] text-[#3D3D3D] lg:w-[572px] mt-4"
+          >
+            Et
+            <b class="font-bold">toutes les archives </b>
+            de La Lettre de l’Assurance sont accessibles.
+          </p>
+        </div>
+      </section>
+      <section class="w-full bg-[#E99C4599] py-14 lg:py-2 px-8 relative">
+        <div
+          class="max-w-[980px] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 items-center justify-center"
+        >
+          <img
+            loading="lazy"
+            src="/assets/images/LLA/Opportunites/Abonnement/03_mockup_engueules/mockup_lla_engueules.png"
+            alt="mockup_lla_engueules"
+          />
+          <p
+            class="text-base lg:text-2xl text-white text-center font-medium leading-[19px] lg:leading-[36px] tracking-[2%]"
+          >
+            En tant qu’abonné, vous recevez également le
+            <b class="font-bold"> hors série annuel </b>
+            “En Gueules”.
+          </p>
+        </div>
+      </section>
+      <div
+        class="abonnement-sabonner-bg h-64 lg:h-[635px] flex flex-col items-center justify-center"
+      >
+        <p
+          class="max-w-[752px] font-medium text-white text-base text-center lg:text-[20px] leading-[19px] lg:leading-[33px] tracking-[2%]"
+        >
+          En prime, les abonné·e·s à La Lettre de l’Assurance bénéficient d’u
+          <b class="font-bold">n accès exclusif</b>aux Petits déjeuners Off de
+          La Lettre de l’Assurance. Et une fois par an, ils bénéficient d’
+          <b class="font-bold"
+            >une place gratuite au Petit déjeuner Off de leur choix</b
+          >.
+        </p>
+        <button
+          class="bg-[#E99C45] text-base lg:text-2xl font-bold leading-[19px] text-white uppercase py-2 px-6 lg:px-10 rounded-full mt-6"
+        >
+          s’abonner
+        </button>
+      </div>
+      <section class="w-full py-16 lg:py-24 xl:py-28 px-8 relative">
+        <div class="scroll-container hidden lg:flex gap-10 overflow-hidden">
+          <div class="scroll-text flex gap-10">
+            <h1
+              class="bebas-neue-pro uppercase text-[180px] leading-[198px] tracking-[2%] text-[#202020] whitespace-nowrap"
+            >
+              ABONNEMENT
+            </h1>
+            <h1
+              class="bebas-neue-pro uppercase text-[180px] leading-[198px] tracking-[2%] text-white stroked-text whitespace-nowrap"
+            >
+              ABONNEMENT
+            </h1>
+            <h1
+              class="bebas-neue-pro uppercase text-[180px] leading-[198px] tracking-[2%] text-[#202020] stroked-text whitespace-nowrap"
+            >
+              ABONNEMENT
+            </h1>
+          </div>
+        </div>
+        <h1
+            class=" lg:hidden bebas-neue uppercase font-bold text-[48px] leading-[52px] text-center tracking-[2%] text-white pb-12">
+            ABONNEMENT
+        </h1>
+        <img
+          class="absolute left-0 top-0"
+          loading="lazy"
+          src="/assets//images/LLA/Opportunites/Abonnement/05_tarifs/Ellipse_tarif_lla.png"
+          alt="Ellipse_tarif_lla"
+        />
+        <p
+          class="text-base lg:text-[28px] text-center font-semibold tracking-[-5%] leading-[33.5px]"
+        >
+          Abonnez votre entreprise à La Lettre de l’Assurance
+        </p>
+        <div
+          class="max-w-[1228px] mx-auto flex flex-col items-center justify-center relative mt-20"
+        >
+          <h3
+            class="bebas-neue-pro text-[20px] lg:text-[40px] leading-[40px] tracking-[-3%] uppercase"
+          >
+            Tarifs de l’abonnement
+          </h3>
+          <div class="w-full max-w-[1120px] mx-auto relative">
+              <!-- flowers-svg -->
+               <div>
+                  <svg class="z-0 absolute -top-1 lg:top-2 -right-8 lg:-right-16 w-20 lg:w-[135px] lg:h-[141px]" width="135" height="141" viewBox="0 0 135 141" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M103.636 85.9624C108.084 82.9346 112.142 79.1371 115.619 74.5716C133.002 51.7437 129.295 18.5863 107.331 0.496635L82.6633 32.8548C79.7508 28.2545 76.1102 24.0444 71.7184 20.4398C49.7543 2.35009 17.8435 6.18776 0.459826 29.0157L31.5358 54.5957C27.0877 57.6235 23.0294 61.4209 19.5526 65.9865C2.16892 88.8144 5.87675 121.972 27.8407 140.062L52.4953 107.704C55.4077 112.305 59.0484 116.515 63.4402 120.119C85.4043 138.209 117.314 134.358 134.699 111.543L103.636 85.9624Z" fill="#FF9901"/>
+                      </svg>
+                      <svg class="z-0 absolute -bottom-20 lg:-bottom-24 -left-8 lg:-left-12 w-20 lg:w-[135px] lg:h-[141px]" width="135" height="141" viewBox="0 0 135 141" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M103.636 85.9624C108.084 82.9346 112.142 79.1371 115.619 74.5716C133.002 51.7437 129.295 18.5863 107.331 0.496635L82.6633 32.8548C79.7508 28.2545 76.1102 24.0444 71.7184 20.4398C49.7543 2.35009 17.8435 6.18776 0.459826 29.0157L31.5358 54.5957C27.0877 57.6235 23.0294 61.4209 19.5526 65.9865C2.16892 88.8144 5.87675 121.972 27.8407 140.062L52.4953 107.704C55.4077 112.305 59.0484 116.515 63.4402 120.119C85.4043 138.209 117.314 134.358 134.699 111.543L103.636 85.9624Z" fill="#FF9901"/>
+                        </svg>
+               </div>
+            <div
+            class="w-full bg-black/50 text-white flex flex-col items-center justify-center rounded-xl py-6 px-6 mt-8 z-20 relative"
+          >
+            <p
+              class="w-full font-black text-base lg:text-[20px] text-center tracking-[-3%] leading-[24px] uppercase py-3"
+            >
+              LA LETTRE DE L’assurance
+            </p>
+            <div
+              class="w-full border-y border-[#101010] flex flex-col items-center justify-center py-6"
+            >
+              <p class="text-base tracking-[-2%] leading-[24px]">
+                Abonnement individuel
+              </p>
+              <p
+                class="bebas-neue-pro text-[60px] lg:text-[99px] leading-[79px] tracking-[0%] mt-10"
+              >
+                1 299 € TTC
+              </p>
+              <p class="text-lg leading-[27px] tracking-[0%] mt-10">/an</p>
+            </div>
+            <div class="flex items-center justify-center gap-4 mt-8">
+              <button class="bg-white px-4 py-1 rounded-full">
+                <svg
+                  width="25"
+                  height="25"
+                  viewBox="0 0 25 25"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M13.1689 20.2425L19.7689 13.6425C19.8689 13.5425 19.9399 13.4341 19.9819 13.3175C20.0233 13.2008 20.0439 13.0758 20.0439 12.9425C20.0439 12.8091 20.0233 12.6841 19.9819 12.5675C19.9399 12.4508 19.8689 12.3425 19.7689 12.2425L13.1689 5.64247C12.9856 5.45913 12.7566 5.36313 12.4819 5.35447C12.2066 5.34647 11.9689 5.44247 11.7689 5.64247C11.5689 5.8258 11.4646 6.0548 11.4559 6.32947C11.4479 6.6048 11.5439 6.84247 11.7439 7.04247L16.6439 11.9425H5.46894C5.18561 11.9425 4.94795 12.0381 4.75595 12.2295C4.56461 12.4215 4.46894 12.6591 4.46894 12.9425C4.46894 13.2258 4.56461 13.4631 4.75595 13.6545C4.94795 13.8465 5.18561 13.9425 5.46894 13.9425H16.6439L11.7439 18.8425C11.5606 19.0258 11.4646 19.2591 11.4559 19.5425C11.4479 19.8258 11.5439 20.0591 11.7439 20.2425C11.9273 20.4425 12.1606 20.5425 12.4439 20.5425C12.7273 20.5425 12.9689 20.4425 13.1689 20.2425Z"
+                    fill="#090909"
+                  />
+                </svg>
+              </button>
+              <p class="bebas-neue-pro text-lg leading-[21px] tracking-[2%] uppercase">Je créé un compte</p>
+            </div>
+          </div>
+          </div>
+        </div>
+      </section>
+      <section class="presentation-background pt-14 lg:pt-28 pb-16 lg:pb-36 bg-white/50">
+            <div class="noise">
+                <h2 class="text-center bebas-neue text-5xl leading-[38px] mb-6">
+                    Nos supports
+                </h2>
+                <div class="nosop-slider">
+                    <img src="./assets/images/News_Asset_Pro/_support_news_asset/04_opportunites/slide-3.png"
+                        alt="slide" />
+                    <img src="./assets/images/News_Asset_Pro/_support_news_asset/04_opportunites/slide-3.png"
+                        alt="slide" />
+                    <img src="./assets/images/News_Asset_Pro/_support_news_asset/04_opportunites/slide-3.png"
+                        alt="slide" />
+                    <img src="./assets/images/News_Asset_Pro/_support_news_asset/04_opportunites/slide-3.png"
+                        alt="slide" />
+                    <img src="./assets/images/News_Asset_Pro/_support_news_asset/04_opportunites/slide-3.png"
+                        alt="slide" />
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="https://player.vimeo.com/api/player.js"></script>
+    <script src="./main.js" type="text/javascript"></script>
+  </body>
+</html>
